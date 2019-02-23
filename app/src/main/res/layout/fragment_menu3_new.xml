@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.nanangrustianto.suara2019.Menu3NewFragment">
+
+   <ListView
+       android:id="@+id/listMenu3"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"></ListView>
+
+
+   <com.google.android.gms.ads.AdView
+       android:id="@+id/adView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true"
+       ads:adSize="BANNER"
+       ads:adUnitId="ca-app-pub-9628674436661190/7406272106"/>
+
+
+</RelativeLayout>

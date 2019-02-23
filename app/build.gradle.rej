@@ -1,0 +1,7 @@
+diff a/app/build.gradle b/app/build.gradle	(rejected hunks)
+@@ -46,4 +46,5 @@
+     testCompile 'junit:junit:4.12'
+     compile 'com.google.android.gms:play-services:9.6.1'
+     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
++
+ }
